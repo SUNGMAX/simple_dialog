@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simple_dialog_test", "simple_dialog_test\simple_dialog_test.vcxproj", "{BB0F6A29-C4D1-4375-9BF4-E9E18EC65DE3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simple_dialog_test_ctrl", "simple_dialog_test_ctrl\simple_dialog_test_ctrl.vcxproj", "{64C66DFE-4F24-4C0A-8453-D4D7FB5F18B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB0F6A29-C4D1-4375-9BF4-E9E18EC65DE3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BB0F6A29-C4D1-4375-9BF4-E9E18EC65DE3}.Debug|Win32.Build.0 = Debug|Win32
+		{BB0F6A29-C4D1-4375-9BF4-E9E18EC65DE3}.Release|Win32.ActiveCfg = Release|Win32
+		{BB0F6A29-C4D1-4375-9BF4-E9E18EC65DE3}.Release|Win32.Build.0 = Release|Win32
+		{64C66DFE-4F24-4C0A-8453-D4D7FB5F18B3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{64C66DFE-4F24-4C0A-8453-D4D7FB5F18B3}.Debug|Win32.Build.0 = Debug|Win32
+		{64C66DFE-4F24-4C0A-8453-D4D7FB5F18B3}.Release|Win32.ActiveCfg = Release|Win32
+		{64C66DFE-4F24-4C0A-8453-D4D7FB5F18B3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

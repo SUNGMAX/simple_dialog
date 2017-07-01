@@ -1,0 +1,324 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\simple_dialog_test.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\simple_dialog_test.ico"
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 영어(미국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About simple_dialog_test"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "simple_dialog_test, Version 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2010",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_TESTDLG_ROBOTICSLAB_DIALOG DIALOGEX 0, 0, 383, 361
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "simple_dialog_test"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "START",IDC_BTN_START,14,296,66,35
+    CTEXT           "Copyright 2011 SimLab Co., Ltd. All rights reserved.",IDC_STATIC,7,336,369,18,SS_CENTERIMAGE | WS_BORDER
+    PUSHBUTTON      "Position1",IDC_BUTTON_HOME,160,296,77,33
+    PUSHBUTTON      "Set",IDC_BUTTON2,91,295,61,35
+    LTEXT           "Joint1",IDC_STATIC,17,34,20,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,7,6,171,128
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,190,6,186,128
+    EDITTEXT        IDC_JOINT1,39,32,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Joint2",IDC_STATIC,17,52,20,8
+    LTEXT           "Joint3",IDC_STATIC,17,68,20,8
+    LTEXT           "Joint4",IDC_STATIC,15,85,20,8
+    LTEXT           "Joint5",IDC_STATIC,15,101,20,8
+    LTEXT           "Joint6",IDC_STATIC,15,116,20,8
+    EDITTEXT        IDC_JOINT2,40,49,29,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_JOINT3,40,65,29,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_JOINT4,39,81,29,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_JOINT5,40,97,28,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_JOINT6,40,113,29,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Desired x",IDC_STATIC,202,30,32,11
+    LTEXT           "Desired y",IDC_STATIC,200,47,31,11
+    LTEXT           "Desired z",IDC_STATIC,200,64,32,11
+    EDITTEXT        IDC_DES_X,239,27,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_DES_Y,239,45,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_DES_Z,239,62,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Desired a",IDC_STATIC,200,82,32,11
+    LTEXT           "Desired b",IDC_STATIC,200,100,32,11
+    LTEXT           "Desired r",IDC_STATIC,201,116,32,11
+    EDITTEXT        IDC_DES_A,239,80,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_DES_B,239,97,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_DES_R,239,115,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Kp_1",IDC_STATIC,72,35,17,8
+    LTEXT           "Kd_1",IDC_STATIC,123,33,17,8
+    EDITTEXT        IDC_JSC_P1,89,31,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_JSC_D1,140,31,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Kp_2",IDC_STATIC,72,54,17,8
+    LTEXT           "Kd_2",IDC_STATIC,123,52,17,8
+    EDITTEXT        IDC_JSC_P2,89,49,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_JSC_D2,140,49,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Kp_3",IDC_STATIC,71,70,17,8
+    LTEXT           "Kd_3",IDC_STATIC,123,68,17,8
+    EDITTEXT        IDC_JSC_P3,89,65,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_JSC_D3,140,65,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Kp_4",IDC_STATIC,71,86,17,8
+    LTEXT           "Kd_4",IDC_STATIC,123,84,17,8
+    EDITTEXT        IDC_JSC_P4,89,81,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_JSC_D4,140,81,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Kp_5",IDC_STATIC,71,102,17,8
+    LTEXT           "Kd_5",IDC_STATIC,122,100,17,8
+    EDITTEXT        IDC_JSC_P5,88,97,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_JSC_D5,139,97,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Kp_6",IDC_STATIC,71,118,17,8
+    LTEXT           "Kd_6",IDC_STATIC,122,117,17,8
+    EDITTEXT        IDC_JSC_P6,88,114,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_JSC_D6,139,114,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Kp_x",IDC_STATIC,272,29,17,8
+    LTEXT           "Kd_x",IDC_STATIC,321,28,17,8
+    EDITTEXT        IDC_OSC_PX,289,26,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_OSC_DX,338,25,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Kp_y",IDC_STATIC,272,48,17,8
+    LTEXT           "Kd_y",IDC_STATIC,323,47,17,8
+    EDITTEXT        IDC_OSC_PY,291,45,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_OSC_DY,339,44,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Kp_z",IDC_STATIC,272,65,16,8
+    LTEXT           "Kd_z",IDC_STATIC,323,63,16,8
+    EDITTEXT        IDC_OSC_PZ,291,62,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_OSC_DZ,339,61,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Kp_a",IDC_STATIC,272,81,17,8
+    LTEXT           "Kd_a",IDC_STATIC,323,79,17,8
+    EDITTEXT        IDC_OSC_PA,291,78,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_OSC_DA,339,77,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Kp_b",IDC_STATIC,272,99,17,8
+    LTEXT           "Kd_b",IDC_STATIC,323,98,17,8
+    EDITTEXT        IDC_OSC_PB,291,96,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_OSC_DB,339,96,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Kp_r",IDC_STATIC,273,117,16,8
+    LTEXT           "Kd_r",IDC_STATIC,323,116,16,8
+    EDITTEXT        IDC_OSC_PR,291,114,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_OSC_DR,339,113,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,7,144,369,37
+    LTEXT           "Joint1",IDC_STATIC,11,168,20,8
+    EDITTEXT        IDC_SIMPLE_JOINT1,31,165,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Joint2",IDC_STATIC,63,168,20,8
+    EDITTEXT        IDC_SIMPLE_JOINT2,84,165,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Joint3",IDC_STATIC,115,167,20,8
+    EDITTEXT        IDC_SIMPLE_JOINT3,136,164,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Joint4",IDC_STATIC,167,167,20,8
+    EDITTEXT        IDC_SIMPLE_JOINT4,188,164,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Joint5",IDC_STATIC,219,167,20,8
+    EDITTEXT        IDC_SIMPLE_JOINT5,240,164,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Joint6",IDC_STATIC,271,167,20,8
+    EDITTEXT        IDC_SIMPLE_JOINT6,293,164,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Time",IDC_STATIC,325,167,16,8
+    EDITTEXT        IDC_SIMPLE_TIME,343,164,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "JSC",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,13,15,28,10
+    CONTROL         "OSC",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,199,14,30,10
+    CONTROL         "JSC_Simple",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,15,151,52,10
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,7,190,369,52
+    LTEXT           "Satus",IDC_STATIC,14,194,20,9
+    LTEXT           "Joint1",IDC_STATIC,15,210,20,8
+    EDITTEXT        IDC_STATUS_JOINT1,37,207,30,14,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    LTEXT           "Joint2",IDC_STATIC,73,210,20,8
+    EDITTEXT        IDC_STATUS_JOINT2,94,207,30,14,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    LTEXT           "Joint3",IDC_STATIC,135,209,20,8
+    EDITTEXT        IDC_STATUS_JOINT3,156,207,30,14,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    LTEXT           "Joint4",IDC_STATIC,194,209,20,8
+    EDITTEXT        IDC_STATUS_JOINT4,215,207,30,14,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    LTEXT           "Joint5",IDC_STATIC,253,209,20,8
+    EDITTEXT        IDC_STATUS_JOINT5,274,207,30,14,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    LTEXT           "Joint6",IDC_STATIC,314,209,20,8
+    EDITTEXT        IDC_STATUS_JOINT6,336,207,30,14,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    LTEXT           "Act x",IDC_STATIC,15,226,32,11
+    EDITTEXT        IDC_STATUS_X,36,224,30,14,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    LTEXT           "Act y",IDC_STATIC,74,226,32,11
+    EDITTEXT        IDC_STATUS_Y,94,224,30,14,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    LTEXT           "Act z",IDC_STATIC,136,226,32,11
+    EDITTEXT        IDC_STATUS_Z,156,224,30,14,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "simple_dialog_test.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "simple_dialog_test.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_TESTDLG_ROBOTICSLAB_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 376
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 354
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About simple_dialog_test..."
+END
+
+#endif    // 영어(미국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\simple_dialog_test.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
